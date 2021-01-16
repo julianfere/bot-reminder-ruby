@@ -1,1 +1,1 @@
-ruby DiscordReminder.rb
+bundle exec ruby DiscordReminder.rb
