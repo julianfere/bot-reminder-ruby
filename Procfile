@@ -1,1 +1,1 @@
-worker: bundle exec ruby main.rb
+ruby DiscordReminder.rb
