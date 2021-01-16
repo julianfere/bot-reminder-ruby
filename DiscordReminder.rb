@@ -5,11 +5,12 @@
 require 'discordrb'
 require 'working_hours'
 require 'json'
+
 bot = Discordrb::Bot.new token: ENV['TOKEN']
 
 def check_state
   File.open('data.json', 'r') do |file|
-    data = JSON.parse(file)
+    data = JSON.parse(file.read)
     return data['sended'] == 'true'
   end
 end
