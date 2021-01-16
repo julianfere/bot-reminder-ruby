@@ -44,6 +44,7 @@ bot.heartbeat do |event|
     end
   else
     update_state(false)
+    puts 'Hoy no'
   end
 end
 
