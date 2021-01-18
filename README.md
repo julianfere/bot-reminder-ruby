@@ -1,4 +1,5 @@
 # Ruby Reminder Bot
+[ my badge ]: https://img.shields.io/github/stars/julianfere/bot-reminder-ruby?color=yellow&style=for-the-badge
 
 Part of a quick Ruby exercise, this bot will send a custom message to a discord channel in a time interval on working days
 
