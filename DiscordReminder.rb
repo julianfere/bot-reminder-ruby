@@ -29,13 +29,14 @@ def parse_time
 end
 
 bot.heartbeat do |event|
-  today = Time.now
+  t = Time.now
+  today_argentina = Time.new(t.year,t.month,t.day,t.hour,t.min,t.sec)
   sended = check_state
   if today.working_day?
     ini = Time.new(today.year, today.month, today.day, 16, 30, 0)
     fin = Time.new(today.year, today.month, today.day, 16, 59, 0)
     hour_range = (ini..fin)
-    if hour_range.include?(today)
+    if hour_range.include?(today_argentina)
       unless sended
         bot.send_message(ENV['CHANNEL'], ENV['REMINDER'])
         update_state(true)
