@@ -1,16 +1,25 @@
 # Ruby Reminder Bot
-[ my badge ]: https://img.shields.io/github/stars/julianfere/bot-reminder-ruby?color=yellow&style=for-the-badge
+[![GitHub Stars](https://img.shields.io/github/stars/julianfere/bot-reminder-ruby?color=yellow)](https://github.com/julianfere/bot-reminder-ruby/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/julianfere/bot-reminder-ruby?color=blueviolet)](https://github.com/julianfere/bot-reminder-ruby/issues)
 
 Part of a quick Ruby exercise, this bot will send a custom message to a discord channel in a time interval on working days
 
 
-The bot token, channel_id, time interval and reminder message are set as enviroment variables
+## How to set up the bot
+
+For the moment to set up the bot you have to set up this enviroment variables 
+
+- `TOKEN` -> Your discord bot token
+- `CHANNEL` -> The id of the channel where the bot will send the messages
+- `INI_TIME` -> The initial time for the interval in the format of "HH:MM" 
+- `END_TIME` -> The enging time for the interval in the format of "HH:MM"
+- `REMINDER` -> Your message
 
 ## Dependencies
 
-- discordrb
+- `Discordrb`(https://github.com/discordrb/discordrb)
 
-- working_hours
+- `WorkingHours`(https://github.com/Intrepidd/working_hours)
 
 
 ## Things for the future
