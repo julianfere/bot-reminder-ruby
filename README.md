@@ -17,9 +17,9 @@ For the moment to set up the bot you have to set up this enviroment variables
 
 ## Dependencies
 
-- `Discordrb`(https://github.com/discordrb/discordrb)
+- [Discordrb](https://github.com/discordrb/discordrb)
 
-- `WorkingHours`(https://github.com/Intrepidd/working_hours)
+- [WorkingHours](https://github.com/Intrepidd/working_hours)
 
 
 ## Things for the future
