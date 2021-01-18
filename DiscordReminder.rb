@@ -30,7 +30,7 @@ end
 
 bot.heartbeat do |event|
   t = Time.now
-  today_argentina = Time.new(t.year,t.month,t.day,t.hour,t.min,t.sec)
+  today_argentina = Time.new(t.year,t.month,t.day,t.hour-3,t.min,t.sec)
   sended = check_state
   if today.working_day?
     ini = Time.new(today.year, today.month, today.day, 16, 30, 0)
