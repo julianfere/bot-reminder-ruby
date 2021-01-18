@@ -7,13 +7,22 @@ Part of a quick Ruby exercise, this bot will send a custom message to a discord 
 
 ## How to set up the bot
 
-For the moment to set up the bot you have to set up this enviroment variables 
+1.
+    For the moment to set up the bot you have to set up this enviroment variables 
 
-- `TOKEN` -> Your discord bot token
-- `CHANNEL` -> The id of the channel where the bot will send the messages
-- `INI_TIME` -> The initial time for the interval in the format of "HH:MM" 
-- `END_TIME` -> The enging time for the interval in the format of "HH:MM"
-- `REMINDER` -> Your message
+    - `TOKEN` -> Your discord bot token
+    - `CHANNEL` -> The id of the channel where the bot will send the messages
+    - `INI_TIME` -> The initial time for the interval in the format of "HH:MM" 
+    - `END_TIME` -> The enging time for the interval in the format of "HH:MM"
+    - `REMINDER` -> Your message
+    
+    
+2. Execute DiscordReminder.rb
+    `ruby DiscordRemider.rb` --> In terminal or
+    `bundler exec ruby DiscordReminder.rb` --> for a Procfile
+    
+3. Invite the bot to your Discord Server :shipit:
+    
 
 ## Dependencies
 
